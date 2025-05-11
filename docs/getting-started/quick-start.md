@@ -91,7 +91,7 @@ Publishing makes your course available to learners outside the platform, and Min
 ## 📽️ Video Walkthrough
 
 <video controls width="600">
-  <source src="/vids/CCPL.mp4" type="video/mp4" />
+ <source src="/mindsmith-docs/vids/CCPL.mp4" type="video/mp4" />
   Your browser does not support the video tag.
 </video>
 
