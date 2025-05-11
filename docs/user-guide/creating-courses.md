@@ -107,7 +107,7 @@ If you have a Pro account, you can assign courses to team members directly from 
 
 
 <video controls width="600">
-  <source src="/vids/CreatingCourse.mp4" type="video/mp4" />
+<source src="/mindsmith-docs/vids/CreatingCourse.mp4" type="video/mp4" />
   Your browser does not support the video tag.
 </video>
 
