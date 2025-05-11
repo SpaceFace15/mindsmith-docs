@@ -115,7 +115,7 @@ This feature is like having an automatic refresher for your course. The content 
 If you're still unsure about any of the steps, or if you prefer a visual guide, watch the video walkthrough below. In just a few minutes, you’ll get an easy-to-follow, step-by-step demonstration on how to publish your course and make it available to learners.
 
 <video controls width="600">
-  <source src="/vids/PublishingALesson.mp4" type="video/mp4" />
+ <source src="/mindsmith-docs/vids/PublishingALesson.mp4" type="video/mp4" />
   Your browser does not support the video tag.
 </video>
 
