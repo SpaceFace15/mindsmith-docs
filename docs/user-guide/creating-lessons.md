@@ -102,7 +102,7 @@ Still confused and want an easy visual aid to help you create a lesson? Watch th
 ## 📽️ Video Walkthrough
 
 <video controls width="600">
-  <source src="/vids/CreatingLessons.mp4" type="video/mp4" />
+<source src="/mindsmith-docs/vids/CreatingLessons.mp4" type="video/mp4" />
   Your browser does not support the video tag.
 </video>
 
