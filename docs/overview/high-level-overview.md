@@ -74,7 +74,7 @@ It supports both rapid course creation and deeper customization, striking a bala
 --
 ## Video Overview
 <video controls width="600">
-  <source src="/videos/OverMS.mp4" type="video/mp4" />
+<source src="/mindsmith-docs/vids/OverMS.mp4" type="video/mp4" />
   Your browser does not support the video tag.
 </video>
 
