@@ -22,7 +22,7 @@ Mindsmith is a cloud-based platform, so no downloads or installations are necess
 <h3>Below is a simple video to show  the different ways to make an account and sign-in and sign-out of Mindsmith.</h3>
 
 <video controls width="600">
-  <source src="/vids/LoginMS.mp4" type="video/mp4" />
+  <source src="/mindsmith-docs/vids/LoginMS.mp4" type="video/mp4" />
   Your browser does not support the video tag.
 </video>
 
