@@ -3,32 +3,31 @@ import { themes as prismThemes } from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Mindsmith Docs', // Must not be empty
+  title: 'Mindsmith Docs',
   tagline: 'Technical Writing & Guides',
   favicon: 'img/favicon.ico',
 
-  url: 'http://localhost:3000', // For local testing, or update with your actual URL
-  baseUrl: '/', 
+  // ✅ MUST update these for GitHub Pages
+  url: 'https://SpaceFace15.github.io',
+  baseUrl: '/mindsmith-docs/',
 
-  organizationName: 'your-org',
-  projectName: 'your-docs',
+  organizationName: 'SpaceFace15', // GitHub username
+  projectName: 'mindsmith-docs',   // Repo name
 
-  onBrokenLinks: 'warn', // Change this to 'warn' for testing
-  onBrokenMarkdownLinks: 'warn', // Warn for broken markdown links
+  onBrokenLinks: 'warn',
+  onBrokenMarkdownLinks: 'warn',
 
   i18n: {
     defaultLocale: 'en',
     locales: ['en'],
   },
 
-  
   presets: [
     [
       'classic',
       ({
         docs: {
-        
-         routeBasePath: '/',      // serve docs at /
+          routeBasePath: '/',
           sidebarPath: './sidebars.js',
           editUrl: undefined,
         },
@@ -39,33 +38,27 @@ const config = {
     ],
   ],
 
-
-
-
-
-  themeConfig:
-    /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
-    ({
-      navbar: {
-        title: 'Mindsmith Docs', // This is okay if you don't want it shown
-        items: [
-          {
-            href: 'https://github.com/SpaceFace15/mindsmith-docs',
-            label: 'GitHub',
-            position: 'right',
-          },
-        ],
-      },
-      footer: {
-        style: 'dark',
-        links: [],
-        copyright: `Joshua's Docs`,
-      },
-      prism: {
-        theme: prismThemes.github,
-        darkTheme: prismThemes.dracula,
-      },
-    }),
+  themeConfig: ({
+    navbar: {
+      title: 'Mindsmith Docs',
+      items: [
+        {
+          href: 'https://github.com/SpaceFace15/mindsmith-docs',
+          label: 'GitHub',
+          position: 'right',
+        },
+      ],
+    },
+    footer: {
+      style: 'dark',
+      links: [],
+      copyright: `Joshua's Docs`,
+    },
+    prism: {
+      theme: prismThemes.github,
+      darkTheme: prismThemes.dracula,
+    },
+  }),
 };
 
 export default config;
